@@ -1,0 +1,41 @@
+---
+layout: default
+title: Home
+---
+
+{% include seo.html %}
+
+<section class="hero">
+  <div class="container">
+    <h1>Building Stronger Structures with Precision Engineering and Quality Fabrication Solutions</h1>
+    <p>RRR Engineering & Fabrication Works delivers industrial fabrication, structural steel works, welding, installation, and custom engineering services for commercial and industrial projects.</p>
+    <p class="ctas"><a class="btn primary" href="/contact.html">Request a Quote</a> <a class="btn secondary" href="https://wa.me/918464082975" target="_blank">Chat on WhatsApp</a></p>
+  </div>
+</section>
+
+<section class="features container">
+  <h2>Our Services</h2>
+  <ul class="services-grid">
+    <li>Structural Steel Fabrication</li>
+    <li>Industrial Fabrication</li>
+    <li>Sheet Metal Works</li>
+    <li>Welding Services</li>
+    <li>Custom Engineering</li>
+    <li>Site Erection & Installation</li>
+  </ul>
+</section>
+
+<section class="projects container">
+  <h2>Featured Projects</h2>
+  <div class="project-grid">
+    {% for i in (1..6) %}
+    <article class="project-card">
+      <img src="/assets/images/projects/placeholder-{{ i }}.jpg" alt="Project {{ i }}">
+      <h3>Project {{ '%02d' | format: i }} – Placeholder</h3>
+      <p>Brief placeholder description for project {{ i }}.</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% include footer.html %}

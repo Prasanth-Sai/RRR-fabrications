@@ -1,0 +1,17 @@
+title: "RRR Engineering & Fabrication Works"
+description: "Structural Steel Fabrication, Industrial Fabrication, Welding and Engineering Solutions in Poddutur."
+baseurl: ""
+url: "https://yourusername.github.io/rrr-fabrications"
+
+author: "RRR Engineering & Fabrication Works"
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+social:
+  name: "RRR Engineering & Fabrication Works"
+
+# Theme settings
+markdown: kramdown
+permalink: /:path/
