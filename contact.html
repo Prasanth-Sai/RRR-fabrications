@@ -1,0 +1,33 @@
+---
+layout: default
+title: Contact
+---
+
+{% include seo.html %}
+
+<section class="container contact-page">
+  <h1>Contact Us</h1>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p><strong>Address:</strong> Poddutur, Andhra Pradesh</p>
+      <p><strong>Phone:</strong> +91 84640 82975</p>
+      <p><strong>Email:</strong> <a href="mailto:rrrvenu2202@gmail.com">rrrvenu2202@gmail.com</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/918464082975">Chat on WhatsApp</a></p>
+      <p><strong>Google Maps:</strong> Coming Soon</p>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label>Name</label>
+        <input type="text" name="name" required>
+        <label>Email</label>
+        <input type="email" name="email" required>
+        <label>Project Details</label>
+        <textarea name="message" rows="6"></textarea>
+        <button type="submit" class="btn primary">Request Quote</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}
